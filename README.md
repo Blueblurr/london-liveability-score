@@ -1,7 +1,7 @@
 # London Liveability Score
 
-#🧠 Project Idea
-#🎯 London Livability Heatmap for Renters
+## 🧠 Project Idea
+## 🎯 London Livability Heatmap for Renters
 London rent prices are a bit of a joke—especially if you're a student or recent grad trying to get a foothold in the city. While platforms like Rightmove and Zoopla cover the basics (price, location, maybe some photos), they miss out on the more vibe-based factors that actually determine where someone wants to live.
 
 This project aims to explore whether it's possible to algorithmically score areas of London based on:
@@ -12,7 +12,7 @@ Pull factors: Density of cafes, museums, pubs, bars, concert venues, theatres, e
 
 Practical factors: Tube access, commuting tolerance, proximity to employment hotspots (e.g. Canary Wharf, City, Temple)
 
-#❌ What Listing Sites Don’t Tell You
+## ❌ What Listing Sites Don’t Tell You
 Most aggregators don’t (or won’t) tell you things like:
 
 1. Local crime rates
@@ -31,7 +31,7 @@ Because:
 
 -Transient audience - you can't make renters subscribe if they'll only use it for the month or so it takes to find a listing.
 
-#💡 So What's the Point?
+## 💡 So What's the Point?
 While building a full listing platform isn’t viable (Scraping SpareRoom, for example, is messy and likely against ToS), I can build a visualisation tool that combines public datasets into an intuitive livability heatmap for London postcodes.
 
 This would be useful for:
@@ -42,10 +42,10 @@ This would be useful for:
 
 -Those willing to compromise on commute time for quality of life and affordability
 
-#🔍 Key Data Layers
+## 🔍 Key Data Layers
 Data will be sourced from open APIs or public data only. Some planned layers:
 
-#-📍 Amenities (Pull Factors)
+### -📍 Amenities (Pull Factors)
 Number of cafes
 
 -Bars/pubs/clubs (nightlife category)
@@ -56,7 +56,7 @@ Number of cafes
 
 -Concert venues
 
-#🚨 Crime (Push Factors)
+### 🚨 Crime (Push Factors)
 -Violent crime
 
 -Burglary/theft
@@ -64,15 +64,15 @@ Number of cafes
 -Antisocial behaviour
 (Filtered to crimes relevant to average residents — e.g., ignoring drug possession or bike theft)
 
-#🛤️ Practical
+### 🛤️ Practical
 Commute radius to major job centres
 
 Transport links (Tube, Overground)
 
-#💰 Price
+### 💰 Price
 Rent estimates based on area (average 1-bed or studio prices from public data)
 
-#🔧 Technical Direction
+## 🔧 Technical Direction
 This is exploratory, but possibilities include:
 
 Clustering methods to group similar postcodes
@@ -87,7 +87,7 @@ If this were a thesis, I'd title it something like:
 
   "Algorithmically synthesising quantitative and qualitative indicators to produce a 'liveability score' for London postcodes, tailored to cost‑conscious, commute‑tolerant young professionals."
 
-🚫 Why No Listings Integration?
+## 🚫 Why No Listings Integration?
 I considered integrating SpareRoom listings. But:
 
 It violates their ToS.
@@ -98,7 +98,7 @@ SpareRoom seems overrun with student house shares — not great for young profes
 
 Instead, I’ll focus on publicly available data and treat listings as out-of-scope (for now).
 
-✅ MVP Goals
+## ✅ MVP Goals
 Static map + scoring system
 
 Overlay layers for crime, amenities, and price
